@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Header.h"
 
 namespace Course2 {
@@ -11,7 +11,7 @@ namespace Course2 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -20,13 +20,13 @@ namespace Course2 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -63,14 +63,14 @@ namespace Course2 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -106,7 +106,7 @@ namespace Course2 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(321, 23);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"Ввод списка экскурсий из файла";
+			this->button1->Text = L"Р’РІРѕРґ СЃРїРёСЃРєР° СЌРєСЃРєСѓСЂСЃРёР№ РёР· С„Р°Р№Р»Р°";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -116,7 +116,7 @@ namespace Course2 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(321, 23);
 			this->button2->TabIndex = 1;
-			this->button2->Text = L"Вывод списка экскурсий в файл";
+			this->button2->Text = L"Р’С‹РІРѕРґ СЃРїРёСЃРєР° СЌРєСЃРєСѓСЂСЃРёР№ РІ С„Р°Р№Р»";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -126,7 +126,7 @@ namespace Course2 {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 23);
 			this->button3->TabIndex = 2;
-			this->button3->Text = L"Начало";
+			this->button3->Text = L"РќР°С‡Р°Р»Рѕ";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -136,7 +136,7 @@ namespace Course2 {
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(75, 23);
 			this->button4->TabIndex = 3;
-			this->button4->Text = L"Конец";
+			this->button4->Text = L"РЎР»РµРґСѓСЋС‰РёР№";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
@@ -146,7 +146,7 @@ namespace Course2 {
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(75, 23);
 			this->button5->TabIndex = 4;
-			this->button5->Text = L"Удаление";
+			this->button5->Text = L"РЈРґР°Р»РµРЅРёРµ";
 			this->button5->UseVisualStyleBackColor = true;
 			this->button5->Click += gcnew System::EventHandler(this, &MyForm::button5_Click);
 			// 
@@ -156,7 +156,7 @@ namespace Course2 {
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(75, 23);
 			this->button6->TabIndex = 5;
-			this->button6->Text = L"Добавить";
+			this->button6->Text = L"Р”РѕР±Р°РІРёС‚СЊ";
 			this->button6->UseVisualStyleBackColor = true;
 			this->button6->Click += gcnew System::EventHandler(this, &MyForm::button6_Click);
 			// 
@@ -166,7 +166,7 @@ namespace Course2 {
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(75, 23);
 			this->button7->TabIndex = 6;
-			this->button7->Text = L"Сортировка";
+			this->button7->Text = L"РЎРѕСЂС‚РёСЂРѕРІРєР°";
 			this->button7->UseVisualStyleBackColor = true;
 			this->button7->Click += gcnew System::EventHandler(this, &MyForm::button7_Click);
 			// 
@@ -176,7 +176,7 @@ namespace Course2 {
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(111, 23);
 			this->button8->TabIndex = 7;
-			this->button8->Text = L"Определить";
+			this->button8->Text = L"РћРїСЂРµРґРµР»РёС‚СЊ";
 			this->button8->UseVisualStyleBackColor = true;
 			this->button8->Click += gcnew System::EventHandler(this, &MyForm::button8_Click);
 			// 
@@ -186,7 +186,7 @@ namespace Course2 {
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(75, 23);
 			this->button9->TabIndex = 8;
-			this->button9->Text = L"Выход";
+			this->button9->Text = L"Р’С‹С…РѕРґ";
 			this->button9->UseVisualStyleBackColor = true;
 			this->button9->Click += gcnew System::EventHandler(this, &MyForm::button9_Click);
 			// 
@@ -196,7 +196,7 @@ namespace Course2 {
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(75, 23);
 			this->button10->TabIndex = 9;
-			this->button10->Text = L"ОК";
+			this->button10->Text = L"РћРљ";
 			this->button10->UseVisualStyleBackColor = true;
 			this->button10->Click += gcnew System::EventHandler(this, &MyForm::button10_Click);
 			// 
@@ -206,7 +206,7 @@ namespace Course2 {
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(75, 23);
 			this->button11->TabIndex = 10;
-			this->button11->Text = L"Отмена";
+			this->button11->Text = L"РћС‚РјРµРЅР°";
 			this->button11->UseVisualStyleBackColor = true;
 			this->button11->Click += gcnew System::EventHandler(this, &MyForm::button11_Click);
 			// 
@@ -217,8 +217,8 @@ namespace Course2 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(592, 13);
 			this->label1->TabIndex = 11;
-			this->label1->Text = L"Определить самую продолжительную экскурсию и экскурсию с наибольшим количеством о"
-				L"сматриваемых картин";
+			this->label1->Text = L"РћРїСЂРµРґРµР»РёС‚СЊ СЃР°РјСѓСЋ РїСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅСѓСЋ СЌРєСЃРєСѓСЂСЃРёСЋ Рё СЌРєСЃРєСѓСЂСЃРёСЋ СЃ РЅР°РёР±РѕР»СЊС€РёРј РєРѕР»РёС‡РµСЃС‚РІРѕРј Рѕ"
+				L"СЃРјР°С‚СЂРёРІР°РµРјС‹С… РєР°СЂС‚РёРЅ";
 			// 
 			// label2
 			// 
@@ -227,7 +227,7 @@ namespace Course2 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(57, 13);
 			this->label2->TabIndex = 12;
-			this->label2->Text = L"Название";
+			this->label2->Text = L"РќР°Р·РІР°РЅРёРµ";
 			// 
 			// textBox1
 			// 
@@ -250,7 +250,7 @@ namespace Course2 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(108, 13);
 			this->label3->TabIndex = 14;
-			this->label3->Text = L"ФИО экскурсовода";
+			this->label3->Text = L"Р¤РРћ СЌРєСЃРєСѓСЂСЃРѕРІРѕРґР°";
 			// 
 			// textBox3
 			// 
@@ -266,7 +266,7 @@ namespace Course2 {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(189, 13);
 			this->label4->TabIndex = 16;
-			this->label4->Text = L"Количество осматриваемых картин";
+			this->label4->Text = L"РљРѕР»РёС‡РµСЃС‚РІРѕ РѕСЃРјР°С‚СЂРёРІР°РµРјС‹С… РєР°СЂС‚РёРЅ";
 			// 
 			// textBox4
 			// 
@@ -282,7 +282,7 @@ namespace Course2 {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(137, 13);
 			this->label5->TabIndex = 18;
-			this->label5->Text = L"Продолжительность, час.";
+			this->label5->Text = L"РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ, С‡Р°СЃ.";
 			// 
 			// textBox5
 			// 
@@ -298,7 +298,7 @@ namespace Course2 {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(204, 13);
 			this->label6->TabIndex = 20;
-			this->label6->Text = L"Самая продолжительная экскурсия, ч.";
+			this->label6->Text = L"РЎР°РјР°СЏ РїСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅР°СЏ СЌРєСЃРєСѓСЂСЃРёСЏ, С‡.";
 			// 
 			// textBox6
 			// 
@@ -314,7 +314,7 @@ namespace Course2 {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(351, 13);
 			this->label7->TabIndex = 22;
-			this->label7->Text = L"Экскурсия с наибольшим количеством осматриваемых картин, шт.";
+			this->label7->Text = L"Р­РєСЃРєСѓСЂСЃРёСЏ СЃ РЅР°РёР±РѕР»СЊС€РёРј РєРѕР»РёС‡РµСЃС‚РІРѕРј РѕСЃРјР°С‚СЂРёРІР°РµРјС‹С… РєР°СЂС‚РёРЅ, С€С‚.";
 			// 
 			// MyForm
 			// 
@@ -365,27 +365,27 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 {
 	if (textBox1->Text->Length == 0)
 	{
-		MessageBox::Show("Введите тему экскурсии", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("Р’РІРµРґРёС‚Рµ С‚РµРјСѓ СЌРєСЃРєСѓСЂСЃРёРё", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		textBox1->Focus();
 		return;
 	}
 	if (textBox2->Text->Length == 0)
 	{
-		MessageBox::Show("Введите тему экскурсии", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("Р’РІРµРґРёС‚Рµ С‚РµРјСѓ СЌРєСЃРєСѓСЂСЃРёРё", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		textBox2->Focus();
 		return;
 	}
 	float time;
 	if (!Single::TryParse(textBox3->Text, time) || time <= 0)
 	{
-		MessageBox::Show("Введите время в правильном числовом формате", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("Р’РІРµРґРёС‚Рµ РІСЂРµРјСЏ РІ РїСЂР°РІРёР»СЊРЅРѕРј С‡РёСЃР»РѕРІРѕРј С„РѕСЂРјР°С‚Рµ", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		textBox3->Focus();
 		return;
 	}
 	float count;
 	if (!Single::TryParse(textBox4->Text, count) || count <= 0)
 	{
-		MessageBox::Show("Введите колчество в правильном числовом формате", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("Р’РІРµРґРёС‚Рµ РєРѕР»С‡РµСЃС‚РІРѕ РІ РїСЂР°РІРёР»СЊРЅРѕРј С‡РёСЃР»РѕРІРѕРј С„РѕСЂРјР°С‚Рµ", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		textBox4->Focus();
 		return;
 	}
@@ -396,6 +396,8 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 	currentNode = CreateList(tema, fio, time, count);
 
 	AddLast(Head, Tail, currentNode);
+
+	MessageBox::Show("Р­Р»РµРјРµРЅС‚ СѓСЃРїРµС€РЅРѕ РґРѕР±Р°РІР»РµРЅ РІ СЃРїРёСЃРѕРє! ", "РЎРѕРѕР±С‰РµРЅРёРµ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 
 	//TODO ADD
 	button10->Enabled = false;
@@ -418,6 +420,10 @@ private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ 
 	button10->Enabled = false;
 	button11->Enabled = false;
 
+	textBox1->Text = "";
+	textBox2->Text = "";
+	textBox3->Text = "";
+	textBox4->Text = "";
 	textBox1->Enabled = false;
 	textBox2->Enabled = false;
 	textBox3->Enabled = false;
@@ -428,18 +434,49 @@ private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ 
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e)
 {
 	currentNode = Head;
+
+	textBox1->Enabled = true;
+	textBox2->Enabled = true;
+	textBox3->Enabled = true;
+	textBox4->Enabled = true;
+
+	textBox1->Text = currentNode->name;
+	textBox2->Text = currentNode->fio;
+	textBox3->Text = (currentNode->count).ToString();
+	textBox4->Text = (currentNode->time).ToString();
+	
+	
 }
 
-//END
+//Next
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e)
 {
-	currentNode = Tail;
+	
+
+	if (currentNode != nullptr) {
+
+		if (currentNode->next) {
+
+			currentNode = currentNode->next;
+			textBox1->Enabled = true;
+			textBox2->Enabled = true;
+			textBox3->Enabled = true;
+			textBox4->Enabled = true;
+
+			textBox1->Text = currentNode->name;
+			textBox2->Text = currentNode->fio;
+			textBox3->Text = (currentNode->count).ToString();
+			textBox4->Text = (currentNode->time).ToString();
+		}
+		else MessageBox::Show("Р”Р°Р»СЊС€Рµ РЅРµС‚ СЌРєСЃРєСѓСЂСЃРёР№", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
+	}
+	else MessageBox::Show("Р”Р°Р»СЊС€Рµ РЅРµС‚ СЌРєСЃРєСѓСЂСЃРёР№", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 }
 
 //Delete
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e)
 {
-	MessageBox::Show("Удаление элемента списка не предусмотрено вариантом", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+	MessageBox::Show("РЈРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР° РЅРµ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРѕ РІР°СЂРёР°РЅС‚РѕРј", "РРЅС„РѕСЂРјР°С†РёСЏ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 }
 
 //ADD
@@ -451,7 +488,6 @@ private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e
 	textBox2->Enabled = true;
 	textBox3->Enabled = true;
 	textBox4->Enabled = true;
-
 }
 
 // SORT
@@ -470,7 +506,7 @@ private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e
 			
 			while (q) 
 			{
-				std::cout << "Equals? - " << lvector[i] << " " << msclr::interop::marshal_as<std::string>(q->name->ToString()) << " is " << (q->name->ToString() == qname) << "\n";
+				//std::cout << "Equals? - " << lvector[i] << " " << msclr::interop::marshal_as<std::string>(q->name->ToString()) << " is " << (q->name->ToString() == qname) << "\n";
 				if (q->name->ToString() == qname)
 				{
 					
@@ -485,6 +521,7 @@ private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e
 		ClearList(Head, Tail, currentNode);
 		Head = NewHead;
 		Tail = NewTail;
+		MessageBox::Show("РЎРїРёСЃРѕРє СѓСЃРїРµС€РЅРѕ РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅ!", "РРЅС„РѕСЂРјР°С†РёСЏ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 
 //DO
@@ -512,9 +549,9 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 {
 	ClearList(Head, Tail, currentNode);
 	OpenFileDialog^ openFileDialog = gcnew OpenFileDialog;
-	openFileDialog->Title = "Открытие файла со списком экскурсий";
+	openFileDialog->Title = "РћС‚РєСЂС‹С‚РёРµ С„Р°Р№Р»Р° СЃРѕ СЃРїРёСЃРєРѕРј СЌРєСЃРєСѓСЂСЃРёР№";
 	openFileDialog->InitialDirectory = "c:\\";
-	openFileDialog->Filter = "Текстовые файлы (*.txt)|*.txt";
+	openFileDialog->Filter = "РўРµРєСЃС‚РѕРІС‹Рµ С„Р°Р№Р»С‹ (*.txt)|*.txt";
 	openFileDialog->ShowReadOnly = false;
 	openFileDialog->RestoreDirectory = true;
 
@@ -525,26 +562,26 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 
 	if (FilePath == "") 
 	{
-		MessageBox::Show("Выберите коректный файл", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("Р’С‹Р±РµСЂРёС‚Рµ РєРѕСЂРµРєС‚РЅС‹Р№ С„Р°Р№Р»", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		return;
 	}
 	else 
 	{
-		StreamReader^ sr = nullptr;					// Объявление указателя на входной поток
+		StreamReader^ sr = nullptr;					// РћР±СЉСЏРІР»РµРЅРёРµ СѓРєР°Р·Р°С‚РµР»СЏ РЅР° РІС…РѕРґРЅРѕР№ РїРѕС‚РѕРє
 		try
 		{
-			sr = gcnew StreamReader(FilePath);		// Создание потока с проверкой ошибок
+			sr = gcnew StreamReader(FilePath);		// РЎРѕР·РґР°РЅРёРµ РїРѕС‚РѕРєР° СЃ РїСЂРѕРІРµСЂРєРѕР№ РѕС€РёР±РѕРє
 		}
-		catch (Exception^ ex)						// Обработка ошибок создания потока ввода
+		catch (Exception^ ex)						// РћР±СЂР°Р±РѕС‚РєР° РѕС€РёР±РѕРє СЃРѕР·РґР°РЅРёСЏ РїРѕС‚РѕРєР° РІРІРѕРґР°
 		{
-			MessageBox::Show(ex->Message, "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+			MessageBox::Show(ex->Message, "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 			if (sr) sr->Close();
 			return;
 		}
-		// Вызов функции обработки
-		if (ReadFile(sr, Head, Tail))// Если файл прочитан без ошибок
+		// Р’С‹Р·РѕРІ С„СѓРЅРєС†РёРё РѕР±СЂР°Р±РѕС‚РєРё
+		if (ReadFile(sr, Head, Tail))// Р•СЃР»Рё С„Р°Р№Р» РїСЂРѕС‡РёС‚Р°РЅ Р±РµР· РѕС€РёР±РѕРє
 		{
-			MessageBox::Show("Успешно считано", "Список экскурсий успешно считан с файла", MessageBoxButtons::OK, MessageBoxIcon::Information);
+			MessageBox::Show("РЈСЃРїРµС€РЅРѕ СЃС‡РёС‚Р°РЅРѕ", "РЎРїРёСЃРѕРє СЌРєСЃРєСѓСЂСЃРёР№ СѓСЃРїРµС€РЅРѕ СЃС‡РёС‚Р°РЅ СЃ С„Р°Р№Р»Р°", MessageBoxButtons::OK, MessageBoxIcon::Information);
 
 			button1->Enabled = true;
 			button2->Enabled = true;
@@ -556,9 +593,9 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 			button8->Enabled = true;
 			button9->Enabled = true;
 		}
-		else // Если при чтении файла возникла ошибка
+		else // Р•СЃР»Рё РїСЂРё С‡С‚РµРЅРёРё С„Р°Р№Р»Р° РІРѕР·РЅРёРєР»Р° РѕС€РёР±РєР°
 		{
-			MessageBox::Show("Ошибка при считывании файла", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+			MessageBox::Show("РћС€РёР±РєР° РїСЂРё СЃС‡РёС‚С‹РІР°РЅРёРё С„Р°Р№Р»Р°", "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		}
 		if (sr) sr->Close();
 	}
@@ -567,25 +604,25 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 // Output
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) 
 {
-	StreamWriter^ sw = nullptr;						// Объявление указателя на выходной поток
+	StreamWriter^ sw = nullptr;						// РћР±СЉСЏРІР»РµРЅРёРµ СѓРєР°Р·Р°С‚РµР»СЏ РЅР° РІС‹С…РѕРґРЅРѕР№ РїРѕС‚РѕРє
 	try
 	{
-		sw = gcnew StreamWriter(FilePath, false);	// Создание потока с проверкой ошибок
+		sw = gcnew StreamWriter(FilePath, false);	// РЎРѕР·РґР°РЅРёРµ РїРѕС‚РѕРєР° СЃ РїСЂРѕРІРµСЂРєРѕР№ РѕС€РёР±РѕРє
 	}
-	catch (Exception^ ex)							// Обработка ошибок создания потока вывода
+	catch (Exception^ ex)							// РћР±СЂР°Р±РѕС‚РєР° РѕС€РёР±РѕРє СЃРѕР·РґР°РЅРёСЏ РїРѕС‚РѕРєР° РІС‹РІРѕРґР°
 	{
-		MessageBox::Show(ex->Message, "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show(ex->Message, "РћС€РёР±РєР°", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		if (sw) sw->Close();
 		return;
 	}
-	if (WriteFile(sw, Head))						// Если файл создан без ошибок
+	if (WriteFile(sw, Head))						// Р•СЃР»Рё С„Р°Р№Р» СЃРѕР·РґР°РЅ Р±РµР· РѕС€РёР±РѕРє
 	{
-		MessageBox::Show("Список успешно выведен в файл", "Сообщение", MessageBoxButtons::OK, MessageBoxIcon::Information);
+		MessageBox::Show("РЎРїРёСЃРѕРє СѓСЃРїРµС€РЅРѕ РІС‹РІРµРґРµРЅ РІ С„Р°Р№Р»", "РЎРѕРѕР±С‰РµРЅРёРµ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
-	else											// Если при записи в файл возникла ошибка
-		button9->Focus();							// Установка курсора на кнопку "Выход"
+	else											// Р•СЃР»Рё РїСЂРё Р·Р°РїРёСЃРё РІ С„Р°Р№Р» РІРѕР·РЅРёРєР»Р° РѕС€РёР±РєР°
+		button9->Focus();							// РЈСЃС‚Р°РЅРѕРІРєР° РєСѓСЂСЃРѕСЂР° РЅР° РєРЅРѕРїРєСѓ "Р’С‹С…РѕРґ"
 
-	if (sw) sw->Close();							// Закрытие потока
+	if (sw) sw->Close();							// Р—Р°РєСЂС‹С‚РёРµ РїРѕС‚РѕРєР°
 }
 
 //On Load
